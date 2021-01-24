@@ -1,0 +1,35 @@
+<!-- Contact -->
+<section class="page-section" id="{{ site.data.sitetext.contact.section | default: " contact" }}">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6 col-sm-12">
+        <h2 class="section-heading text-uppercase">
+          {{ site.data.sitetext.contact.title | markdownify | default: Contact Us }}
+        </h2>
+        <h5 class="section-heading mt-5">
+          {{ site.data.sitetext.contact.university}}
+        </h5>
+        <h5 class="section-heading mt-5 d-flex flex-row bd-highlight">
+
+          <text class="text-uppercase">Address:</text>
+          <Text class="ml-2">
+            {{ site.data.sitetext.contact.address}}
+          </Text>
+
+        </h5>
+        <h5 class="section-heading mt-5">
+          <text class="text-uppercase">Phone:</text> {{ site.data.sitetext.contact.phone}}
+        </h5>
+
+        <h5 class="section-heading mt-5">
+          <text class="text-uppercase">E-mail:</text> {{ site.data.sitetext.contact.email}}
+        </h5>
+      </div>
+
+      <div class="col-md-6 col-sm-12">
+        {{ site.data.sitetext.contact.iframe}}
+      </div>
+    </div>
+  </div>
+</section>
+<!-- End Contact -->

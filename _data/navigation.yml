@@ -1,0 +1,15 @@
+nav:
+  - title: "Home"
+    section: services
+
+  - title: "Projects"
+    section: portfolio
+    
+  - title: "About"
+    section: timeline
+
+  - title: "Team"
+    section: team
+
+  - title: "Contact"
+    section: contact
