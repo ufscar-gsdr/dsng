@@ -54,47 +54,7 @@ team:
   text: "Lorem ipsum dolor sit amet consectetur."
   subtext: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde. **Markdown** supported.
   section: team
-  people:
-      - name: "Prof. Heremes Senger"
-        role: "Lead Designer"
-        image: assets/img/team/500x500.jpg
-        social:
-          - url: https://twitter.com
-            icon: fab fa-twitter
-          - url: https://facebook.com
-            icon: fab fa-facebook-f
-          - url: https://linkedin.com
-            icon: fab fa-linkedin-in
-      - name: "Prof. Helio Guardia"
-        role: "Lead Marketer"
-        image: assets/img/team/500x500.jpg
-        social:
-          - url: https://twitter.com
-            icon: fab fa-twitter
-          - url: https://facebook.com
-            icon: fab fa-facebook-f
-          - url: https://linkedin.com
-            icon: fab fa-linkedin-in
-      - name: "Prof. Fabio L. Verdi"
-        role: "Lead Developer"
-        image: assets/img/team/500x500.jpg
-        social:
-          - url: https://twitter.com
-            icon: fab fa-twitter
-          - url: https://facebook.com
-            icon: fab fa-facebook-f
-          - url: https://linkedin.com
-            icon: fab fa-linkedin-in
-      - name: "Prof. Paulo Matias"
-        role: "Lead Developer"
-        image: assets/img/team/500x500.jpg
-        social:
-          - url: https://twitter.com
-            icon: fab fa-twitter
-          - url: https://facebook.com
-            icon: fab fa-facebook-f
-          - url: https://linkedin.com
-            icon: fab fa-linkedin-in
+  closebutton: "Close About"
 
 contact:
   title: "Contact Us"
@@ -102,7 +62,7 @@ contact:
   university: '<text class="text-uppercase">UFSCar</text> – campus Sorocaba'
   address: "Rdv. João Leme dos Santos, Km 110 – Bairro Itinga – Sorocaba – SP – Brazil"
   phone: "55+ (15) 3229 – 8843"
-  email: " verdi@ufscar.br"
+  email: "verdi@ufscar.br"
   iframe: '<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3656.665367869712!2d-47.52615108547969!3d-23.58045898467341!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94c58bfef49c70e9%3A0x23de39e2eab9d99!2sUFSCar%20Campus%20Sorocaba!5e0!3m2!1spt-BR!2sbr!4v1611194515940!5m2!1spt-BR!2sbr" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>'
   section: contact
 

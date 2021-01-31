@@ -1,6 +1,6 @@
 <!-- Portfolio Modals -->
-{% for project in site.projects %}
-<div class="portfolio-modal modal fade" id="p{{ forloop.index }}" tabindex="-1" role="dialog" aria-hidden="true">
+{% for person in site.team %}
+<div class="portfolio-modal modal fade" id="person{{ forloop.index }}" tabindex="-1" role="dialog" aria-hidden="true">
   <div class="modal-dialog">
     <div class="modal-content">
       <div class="close-modal" data-dismiss="modal">
@@ -12,19 +12,18 @@
         <div class="row">
           <div class="col-lg-8 mx-auto">
             <div class="modal-body">
-              <!-- Project Details Go Here -->
-              <h2 class="text-uppercase">{{ project.title }}</h2>
+              <!-- person Details Go Here -->
               <div class="d-flex justify-content-center">
-                <p class="item-intro text-muted text-justify">{{ project.subtitle }}</p>
+                <p class="item-intro text-muted text-justify">{{ person.name }}</p>
               </div>
-              <img class="img-fluid d-block mx-auto" src="{{ project.image }}" alt="{{ project.alt }}">
-              <div>
-                {{ project.content }}
+              <img class="img-fluid d-block mx-auto" src="{{ person.image }}" alt="{{ person.alt }}">
+              <div class="text-justify">
+                {{ person.content }}
               </div>
-             
+
               <button class="btn btn-primary" data-dismiss="modal" type="button">
                 <i class="fas fa-times"></i>
-                {{ site.data.sitetext.projects.closebutton | default: "Close Project" }}</button>
+                {{ site.data.sitetext.team.closebutton | default: "Close About" }}</button>
             </div>
           </div>
         </div>
