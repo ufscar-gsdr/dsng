@@ -28,8 +28,9 @@ analytics:
   google: #Google Analytics tracking code here
 
 collections:
-  - portfolio
+  - projects
   - publications
+  - teams
 
 markdown: kramdown
 #page_excerpts: true

@@ -2,13 +2,13 @@ header:
   title: LERIS
   text: Laboratory of Studies in Networks, Innovation and Software
   button: Tell Me More
-  buttonlink: "#services"
+  buttonlink: "#home"
 
-services:
+home:
   title: "Home"
   text: "LERIS – Laboratory of Studies in Networks, Innovation and Software is a research laboratory inside of  Department of Computer Science and Master Adviser of the Post-Graduation Program at Federal University of São Carlos – Sorocaba, Brazil (UFSCar).
 The research projects are inserted in areas of innovation, computer networks and software engineering. LERIS researchers works for approximating the academic research to practical problems. FAPESP, CNPq and the partnership with the industry are the LERIS projects’ sponsors."
-  section: services
+  section: home
   list:
     - title: ""
       desc: "Internet Routing, Mobility and Next Generation Internet Architectures"
@@ -32,10 +32,10 @@ The research projects are inserted in areas of innovation, computer networks and
       desc: "e-Learning"
       icon: fas fa-keyboard
 
-portfolio:
+projects:
   title: "Projects"
   text: "Our projects."
-  section: portfolio
+  section: projects
   closebutton: "Close Project"
 
 publications:

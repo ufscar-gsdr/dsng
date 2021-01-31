@@ -1,9 +1,9 @@
 nav:
   - title: "Home"
-    section: services
+    section: home
 
   - title: "Projects"
-    section: portfolio
+    section: projects
     
   - title: "Publications"
     section: publications
