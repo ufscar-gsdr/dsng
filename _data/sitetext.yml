@@ -1,35 +1,27 @@
 header:
-  title: LERIS
-  text: Laboratory of Studies in Networks, Innovation and Software
+  title: LSNIS
+  text: "Distributed Systems and Networking Group"
   button: Tell Me More
   buttonlink: "#home"
 
 home:
   title: "Home"
-  text: "LERIS – Laboratory of Studies in Networks, Innovation and Software is a research laboratory inside of  Department of Computer Science and Master Adviser of the Post-Graduation Program at Federal University of São Carlos – Sorocaba, Brazil (UFSCar).
-The research projects are inserted in areas of innovation, computer networks and software engineering. LERIS researchers works for approximating the academic research to practical problems. FAPESP, CNPq and the partnership with the industry are the LERIS projects’ sponsors."
+  text: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum"
   section: home
   list:
-    - title: ""
-      desc: "Internet Routing, Mobility and Next Generation Internet Architectures"
+    - desc: "Internet Routing, Mobility and Next Generation Internet Architectures"
       icon: fas fa-sitemap #find more at https://fontawesome.com/icons
-    - title: ""
-      desc: "Data Center, Cloud Computing and Green Computing"
+    - desc: "Data Center, Cloud Computing and Green Computing"
       icon: fas fa-cloud
-    - title: ""
-      desc: "Internet of Things and Smart Cities"
+    - desc: "Internet of Things and Smart Cities"
       icon: fas fa-building
-    - title: ""
-      desc: "Startups, Innovation and Entrepreneurship"
+    - desc: "Startups, Innovation and Entrepreneurship"
       icon: fas fa-lightbulb #find more at https://fontawesome.com/icons
-    - title: ""
-      desc: "Software Engineering: Software Reuse, Software Quality, Web and Mobile Development"
+    - desc: "Software Engineering: Software Reuse, Software Quality, Web and Mobile Development"
       icon: fas fa-tablet-alt
-    - title: ""
-      desc: "User Experience and User-Centered Design"
+    - desc: "User Experience and User-Centered Design"
       icon: fas fa-users
-    - title: ""
-      desc: "e-Learning"
+    - desc: "e-Learning"
       icon: fas fa-keyboard
 
 projects:
