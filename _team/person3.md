@@ -1,34 +1,21 @@
 ---
-name: "Prof. Fabio L. Verdi"
-role: "Lead Developer"
-image: assets/img/team/profile-fabio_verde.jpg
+name: "Hermes Senger"
+role: "Doutor"
+image: assets/img/team/hermes_senger.jpg
 social:
   - url: https://twitter.com
     icon: fab fa-twitter
   - url: https://facebook.com
     icon: fab fa-facebook-f
-  - url: https://www.linkedin.com/in/fábio-luciano-verdi-aa9bb34
+  - url: https://www.linkedin.com
     icon: fab fa-linkedin-in
 
 
 caption:
-  title: "Prof"
+  title: "Dr"
   subtitle: Education
 ---
 <p>
-  BSc in Computer Science, December 1999 – University of Ijuí –&nbsp; 
-  <a href="http://www.unijui.tche.br/">UNIJUI-RS</a>
-</p>
-<p>
-  MSc in Computer Science,&nbsp;March 2002 –&nbsp;<a href="http://www.ic.unicamp.br/">Institute of Computing</a>, University of Campinas (UNICAMP), under supervisioning of Prof.&nbsp;<a href="http://www.ic.unicamp.br/~edmundo">Edmundo R. M. Madeira</a>.
-</p>
-<p>
-  PhD in Eletrical Engineering, Computer Engineering area, November 2006 – Department of Computer Engineering and Industrial Automation (<a href="http://www.dca.fee.unicamp.br/">DCA</a>) at the School of Electrical and Computer Engineering (<a href="http://www.fee.unicamp.br/" target="_top">FEEC</a>) under supervisioning of Prof.&nbsp;<a href="http://www.dca.fee.unicamp.br/~mauricio/">Maurício Magalhães</a>&nbsp;and Prof.&nbsp;<a href="http://www.ic.unicamp.br/~edmundo">Edmundo R. M. Madeira</a>&nbsp;(from IC).
-</p>
-<p>
-  Pos-doc in Eletrical Engineering, Computer Engineering area, Nov 2006 – Jan 2009, at FEEC, UNICAMP.
-</p>
-<p>
-  Currently, I am an Associate Professor at Federal University of São Carlos&nbsp;<a href="http://www.ufscar.br/">(UFSCar),</a>&nbsp;Campus Sorocaba.
+Hermes Senger é professor Associado do Departamento de Computação da Universidade Federal de São Carlos (UFSCar). Atua como docente em Ciência da Computação, nos níveis de graduação e pós-graduação. Foi membro e preside o Comitê Gestor da Rede Metropolitana de São Carlos - RedeSANCA no período de 2014 a 2018. Desde 2014 é membro do Comitê Gestor da Rede Acadêmica do Estado de São Paulo - Rede ANSP. Atuou como membro do Comitê da Área de Ciência da Computação da CAPES durante a Avaliação Trienal 2013 e Quadrienal 2016; Coordenador do Programa de Pós-graduação em Ciência da Computação (PPGCC-UFSCAR) de Nov/2013 a Out/2015; Secretário Geral de Informática da UFSCAR (Nov/2015 a Nov/2016). Como pesquisador em Computação e Informática, coordenou e participou de projetos apoiados por agências (CNPq, FAPESP, RNP e Comunidade Europeia). Foi responsável pela proposta e implantação de uma nuvem computacional científica da UFSCAR com recursos da FINEP(CT-INFRA 2013). Possui mais de mais de 50 trabalhos publicados em revistas e anais de congressos científicos com seletiva política editorial. Tem atuado como revisor e editor convidado (special issue) de periódicos internacionais com bom fator de impacto, bem como em comitês de programas de conferências nacionais e internacionais. Atuou como consultor (parecerista ad hoc) para o CNPQ, CAPES, FAPESP, FUNCAP, Netherlands Organisation for Scientific Research (NWO), Comisión Nacional de Investigación Científica y Tecnológica (Chile), e Swiss National Science Foundation. Principais interesses em pesquisa incluem computação paralela e distribuída, computação de alto desempenho (clusters, grades e clouds computacionais), avaliação de desempenho, escalonamento, tolerância a falhas, segurança, infraestrutura computacional e aplicações para e-Ciência.
 </p>
  

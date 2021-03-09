@@ -1,34 +1,21 @@
 ---
-name: "Prof. Fabio L. Verdi"
-role: "Lead Developer"
-image: assets/img/team/profile-fabio_verde.jpg
+name: "Hélio Crestana Guardia"
+role: "Doutor"
+image: assets/img/team/helio_crestana_guardia.png
 social:
   - url: https://twitter.com
     icon: fab fa-twitter
   - url: https://facebook.com
     icon: fab fa-facebook-f
-  - url: https://www.linkedin.com/in/fábio-luciano-verdi-aa9bb34
+  - url: https://www.linkedin.com
     icon: fab fa-linkedin-in
 
 
 caption:
-  title: "Prof"
+  title: "Dr"
   subtitle: Education
 ---
 <p>
-  BSc in Computer Science, December 1999 – University of Ijuí –&nbsp; 
-  <a href="http://www.unijui.tche.br/">UNIJUI-RS</a>
-</p>
-<p>
-  MSc in Computer Science,&nbsp;March 2002 –&nbsp;<a href="http://www.ic.unicamp.br/">Institute of Computing</a>, University of Campinas (UNICAMP), under supervisioning of Prof.&nbsp;<a href="http://www.ic.unicamp.br/~edmundo">Edmundo R. M. Madeira</a>.
-</p>
-<p>
-  PhD in Eletrical Engineering, Computer Engineering area, November 2006 – Department of Computer Engineering and Industrial Automation (<a href="http://www.dca.fee.unicamp.br/">DCA</a>) at the School of Electrical and Computer Engineering (<a href="http://www.fee.unicamp.br/" target="_top">FEEC</a>) under supervisioning of Prof.&nbsp;<a href="http://www.dca.fee.unicamp.br/~mauricio/">Maurício Magalhães</a>&nbsp;and Prof.&nbsp;<a href="http://www.ic.unicamp.br/~edmundo">Edmundo R. M. Madeira</a>&nbsp;(from IC).
-</p>
-<p>
-  Pos-doc in Eletrical Engineering, Computer Engineering area, Nov 2006 – Jan 2009, at FEEC, UNICAMP.
-</p>
-<p>
-  Currently, I am an Associate Professor at Federal University of São Carlos&nbsp;<a href="http://www.ufscar.br/">(UFSCar),</a>&nbsp;Campus Sorocaba.
+  Possui graduação em Bacharelado em Ciência da Computação pela Universidade Federal de São Carlos (1990), mestrado em Ciência da Computação pela Universidade Federal de São Carlos (1993) e doutorado em Engenharia Elétrica pela Universidade de São Paulo (1999). Realizou pós-doutoramento no Computer Science Department, na Universidade de Cambridge, UK (2010). Atualmente é professor associado da Universidade Federal de São Carlos. Tem experiência na área de Ciência da Computação, com ênfase em Software Básico, atuando principalmente nos seguintes temas: sistemas distribuídos, computação móvel e computação de alto desempenho.
 </p>
  
