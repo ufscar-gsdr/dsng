@@ -14,7 +14,7 @@
 theme: jekyll-agency
 
 
-# baseurl: "/dsng" # the subpath of your site, e.g. /blog
+baseurl: "/dsng" # the subpath of your site, e.g. /blog
 url    : "https://ufscar-gsdr.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 github_username: jesimielefraimdias
 
