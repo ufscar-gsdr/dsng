@@ -1,6 +1,7 @@
 ---
 name: "Hermes Senger"
 role: "Doutor"
+personalPage: "https://sites.google.com/site/hermessengershomepage/"
 image: assets/img/team/hermes_senger.jpg
 social:
   - url: https://twitter.com

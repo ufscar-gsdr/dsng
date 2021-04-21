@@ -1,6 +1,7 @@
 ---
 name: "Hélio Crestana Guardia"
 role: "Doutor"
+personalPage: ""
 image: assets/img/team/helio_crestana_guardia.png
 social:
   - url: https://twitter.com

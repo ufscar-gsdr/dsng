@@ -1,28 +1,19 @@
 ---
-title: 2017 - 2020
-initialYear: 2017
-subtitle: NECOS - Novel Enablers for Cloud Slicing
+title: "IEEE Transactions on Network and Service Management ( Volume: 17, Issue: 3, Sept. 2020)"
+initialYear: 2020
+subtitle: "Usability Matters: A Human–Computer Interaction Study on Network Management Tools"
 # image: assets/img/projects/metodologiasageis.png
 image: false
 alt: Shirts on a hanger
 
 caption:
-  title: 2017 – 2020
-  subtitle: NECOS - Novel Enablers for Cloud Slicing
+  title: "IEEE Transactions on Network and Service Management ( Volume: 17, Issue: 3, Sept. 2020)"
+  subtitle: "Usability Matters: A Human–Computer Interaction Study on Network Management Tools"
   thumbnail: assets/img/projects/metodologiasageis.png
 ---
 <p class="text-justify my-2">
-<strong>Descrição:</strong>  The NECOS project addresses the limitations of current cloud computing infrastructures to respond to the demand of new services, as presented in two use-cases, that will drive the whole execution of the project. The first use-case is Telco service provider focussed and is oriented towards the adoption of cloud computing in their large networks. The second use-case is targeting the use of edge clouds to support devices with low computation and storage capacity. The envisaged solution is based on a new concept Lightweight Slice Defined Cloud (LSDC) as an approach that extends the virtualization to all the resources in the involved networks and data centers and provides a uniform management with a high-level of orchestration. The NECOS approach will be manifested in a platform whose main distinguishing features are: 1. The Slice as a Service - a new deployment model. A slice is a grouping of resources managed as a whole and that can accommodate service components, independent of other slices. 2. Embedded algorithms for an optimal allocation of resources to slices in the cloud and networking infrastructure, to respond to the dynamic changes of the various service demands. 3. A management and orchestration approach making use of artificial intelligence techniques in order to tackle with the complexity of large scale virtualized infrastructure environments. 4. Making reality the lightweight principle, in terms of low footprint components deployable on large number of small network and cloud devices at the edges of the network. The NECOS platform will be based on state of the art open software platform, which will be carefully selected, rather than start from scratch. This baseline platform will be enhanced with the management and orchestration algorithms and the APIs that will constitute the research activity of the project. Finally the NECOS platform will be validated, in the context of the two proposed use cases, using the 5TONIC and FIBRE testing frameworks..
+<strong>Descrição:</strong> Over the years, network monitoring tools have evolved to keep pace with the advances in networking technologies and paradigms, such as virtualization and softwarization, and more recently, data plane programmability. However, there have been few advances regarding user interfaces and interactions in network management systems. In this paper, an investigation based on the human-computer interaction perspective is presented and improvements on the usability aspects of network monitoring tools are proposed. First, we conducted a survey to capture general information from network administrator professionals. On the basis of these initial data, we identified and specified two personas to represent the groups of users. Thereafter, a study focused on observing users' interaction and experience with a well-known network monitoring tool was conducted. Finally, our qualitative analysis revealed several findings that were used to develop recommendations to aid developers in the (re)design of these tools to enhance end-user interaction.
 </p>
-<p class = "text-justify my-2">
-<strong>Situação:</strong> Concluído; Natureza: Pesquisa.
-</p>
-<p class = "text-justify my-2">
-  <strong>Alunos envolvidos:</strong> Graduação: (2) / Mestrado acadêmico: (2) / Doutorado: (2) . 
-</p>
-<p class = "text-justify my-2">
-<strong>Integrantes:</strong>  Fabio Luciano Verdi - Coordenador / Cesar Augusto Cavalheiro Marcondes - Integrante / André Beltrami - Integrante / Paulo Di Tarso - Integrante / SERGI ALMENARA - Integrante.
-</p>
-<p class = "text-justify my-2">
-<strong>Financiador(es):</strong> RNP/CTIC - Auxílio financeiro.
+<p class="text-justify">
+<a target="_blank" href="https://ieeexplore.ieee.org/document/9063640">Link</a>
 </p>

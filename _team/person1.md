@@ -1,6 +1,7 @@
 ---
 name: "Fabio L. Verdi"
 role: "Doutor"
+personalPage: "http://www.dcomp.ufscar.br/verdi"
 lattes: ""
 image: assets/img/team/fabio_verde.jpg
 social:

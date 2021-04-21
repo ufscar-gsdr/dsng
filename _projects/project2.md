@@ -1,22 +1,28 @@
 ---
-title: 2014 - 2016
-subtitle: Uma Linha de Produtos de Software para Intensificar o Desenvolvimento de Museus Virtuais com Interação Multimodal
-image: assets/img/projects/museusvirtuais.jpg
+title: 2017 - 2020
+initialYear: 2017
+subtitle: NECOS - Novel Enablers for Cloud Slicing
+# image: assets/img/projects/metodologiasageis.png
+image: false
 alt: Shirts on a hanger
 
 caption:
-  title: 2014 – 2016
-  subtitle: Uma Linha de Produtos de Software para Intensificar o Desenvolvimento de Museus Virtuais com Interação Multimodal
-  thumbnail: assets/img/projects/museusvirtuais.jpg
+  title: 2017 – 2020
+  subtitle: NECOS - Novel Enablers for Cloud Slicing
+  thumbnail: assets/img/projects/metodologiasageis.png
 ---
 <p class="text-justify my-2">
-<strong>Descrição:</strong> Os museus são considerados um grande repositório de história, arte e memória que podem ser utilizados como um importante instrumento de ensino-aprendizagem, por possibilitar a comparação do presente com o passado e interação com acervos. No entanto, o Brasil dispõe de poucos museus virtuais e estatísticas mostram que menos de 10% da população já visitaram um museu. Outro ponto fundamental é que grande parte dos museus virtuais são criados para domínios e propósitos específicos. Muitas vezes, sem haver a preocupação com possibilidades diversas de interação. O objetivo deste projeto é investigar, propor, desenvolver e validar uma linha de produto de software que dê suporte ao desenvolvimento de museus virtuais com interação multimodal. O projeto trará contribuições para acelerar o desenvolvimento de ambientes de museus virtuais através do reuso de componentes (linha de produto), possibilitando assim o suporte ao processo de ensino-aprendizagem em diferentes níveis escolares, e impactando na disseminação do conhecimento, independente de aspectos geográficos.
+<strong>Descrição:</strong>  The NECOS project addresses the limitations of current cloud computing infrastructures to respond to the demand of new services, as presented in two use-cases, that will drive the whole execution of the project. The first use-case is Telco service provider focussed and is oriented towards the adoption of cloud computing in their large networks. The second use-case is targeting the use of edge clouds to support devices with low computation and storage capacity. The envisaged solution is based on a new concept Lightweight Slice Defined Cloud (LSDC) as an approach that extends the virtualization to all the resources in the involved networks and data centers and provides a uniform management with a high-level of orchestration. The NECOS approach will be manifested in a platform whose main distinguishing features are: 1. The Slice as a Service - a new deployment model. A slice is a grouping of resources managed as a whole and that can accommodate service components, independent of other slices. 2. Embedded algorithms for an optimal allocation of resources to slices in the cloud and networking infrastructure, to respond to the dynamic changes of the various service demands. 3. A management and orchestration approach making use of artificial intelligence techniques in order to tackle with the complexity of large scale virtualized infrastructure environments. 4. Making reality the lightweight principle, in terms of low footprint components deployable on large number of small network and cloud devices at the edges of the network. The NECOS platform will be based on state of the art open software platform, which will be carefully selected, rather than start from scratch. This baseline platform will be enhanced with the management and orchestration algorithms and the APIs that will constitute the research activity of the project. Finally the NECOS platform will be validated, in the context of the two proposed use cases, using the 5TONIC and FIBRE testing frameworks..
 </p>
 <p class = "text-justify my-2">
-  <strong>Situação</strong> Concluído; Natureza: Pesquisa. 
+<strong>Situação:</strong> Concluído; Natureza: Pesquisa.
 </p>
 <p class = "text-justify my-2">
-<strong>Alunos envolvidos:</strong> Graduação: (5) / Mestrado acadêmico: (2) .Integrantes: Luciana Aparecida Martinez Zaina – Coordenador / Alexandre Alvaro – Integrante / Andreia Damasio de Leles – Integrante / Murillo Rodrigo Petrucelli Homem – Integrante / Eline Faliane de Araújo Welter – Integrante / Monique Spessoto Ribeiro – Integrante / Gabriel Cruz Ferreira – Integrante / Guilherme José Carvalho Gois – Integrante / Marcello Acar – Integrante / Danilo Carmargo Bueno – Integrante / Gabriel de Paula e Lima – Integrante / Elisa Marques de Castro – Integrante.
+  <strong>Alunos envolvidos:</strong> Graduação: (2) / Mestrado acadêmico: (2) / Doutorado: (2) . 
 </p>
-<p class="text-justify my-2"><strong>Financiador(es):</strong> Fundação de Amparo à Pesquisa do Estado de São Paulo – Auxílio financeiro.</p>
-<p class="text-justify my-2"><strong>Número de produções C, T & A: 6 / Número de orientações:</strong> 5</p>
+<p class = "text-justify my-2">
+<strong>Integrantes:</strong>  Fabio Luciano Verdi - Coordenador / Cesar Augusto Cavalheiro Marcondes - Integrante / André Beltrami - Integrante / Paulo Di Tarso - Integrante / SERGI ALMENARA - Integrante.
+</p>
+<p class = "text-justify my-2">
+<strong>Financiador(es):</strong> RNP/CTIC - Auxílio financeiro.
+</p>
