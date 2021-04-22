@@ -1,6 +1,8 @@
 ---
+name: "Fabio L. Verdi"
 title: 2013 - 2016
 initialYear: 2013
+finished: true
 subtitle: Estudo e Desenvolvimento de Soluções para Comunicação Inter-Data Centers (Universal 2013 - Faixa B)
 # image: assets/img/projects/metodologiasageis.png
 image: false

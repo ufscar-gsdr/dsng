@@ -25,12 +25,14 @@ home:
       icon: fas fa-keyboard
 
 projects:
+  minYear: 2016
   title: "Projects"
   text: "Our projects."
   section: projects
   closebutton: "Close Project"
 
 publications:
+  minYear: 2016
   title: "Publications"
   text: "Our publications."
   section: publications

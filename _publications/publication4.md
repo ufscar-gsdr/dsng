@@ -1,4 +1,5 @@
 ---
+name: "Fabio L. Verdi"
 title: "Published: 28 February 2018"
 initialYear: 2018
 subtitle: "Towards novelty detection in electronic devices based on their energy consumption"

@@ -10,28 +10,61 @@
         <h3 class="section-subheading text-muted">{{ site.data.sitetext.projects.text | markdownify }}</h3>
       </div>
     </div>
-
-    <div class="row">
+    
+    <select name="cars" id="cars">
+    
+    </select>
+    
+    <div id="listProjects" class="row">
       {% for project in site.projects %}
-      <div class="col-12">
-
-        <a class="portfolio-link" data-toggle="modal" href="#project{{ forloop.index }}">
-          <div class="portfolio-hover">
-            <div class="portfolio-hover-content">
-              <div class="row d-flex justify-content-around align-items-start my-4">
-                <i class="col-1 {{ site.data.style.portfolio-icon | default: ' fas fa-plus fa-3x' }}" style="border-style: none;"></i>
-                <div class="col-10">
-                  <h4>{{ project.caption.title }}</h4>
-                  <p class="text-justify text-muted">{{ project.caption.subtitle }}</p>
+      <div>
+        <text hidden>{{ project.name }}</text>
+        <text hidden>{{ project.initialYear }}</text>
+        <text hidden>{{ project.finished }}</text>
+        <div class="col-12">
+          <a class="portfolio-link" data-toggle="modal" href="#project{{ forloop.index }}">
+            <div class="portfolio-hover">
+              <div class="portfolio-hover-content">
+                <div class="row d-flex justify-content-around align-items-start my-4">
+                  <i class="col-1 {{ site.data.style.portfolio-icon | default: ' fas fa-plus fa-3x' }}"
+                    style="border-style: none;"></i>
+                  <div class="col-10">
+                    <h4>{{ project.caption.title }}</h4>
+                    <p class="text-justify text-muted">{{ project.caption.subtitle }}</p>
+                  </div>
                 </div>
               </div>
             </div>
-          </div>
-        </a>
-
+          </a>
+        </div>
       </div>
       {% endfor %}
     </div>
   </div>
 </section>
+
+<script>
+  function myFunction() {
+    // Declare variables
+    let elements;
+    elements = document.getElementById("listProjects").getElementsByTagName('div');
+
+    // Loop through all list items, and hide those who don't match the search query
+    for (i = 0; i < elements.length; i++) {
+
+      let name = elements[i].getElementsByTagName("text")[0];
+      name = name.textContent || name.innerText;
+      
+      let initialYear = elements[i].getElementsByTagName("text")[1];
+      initialYear = initialYear.textContent || initialYear.innerText;
+      
+      let finished = elements[i].getElementsByTagName("text")[2];;
+      finished = finished.textContent || finished.innerText;
+      finished = JSON.parse(finished.toLowerCase());
+
+      console.log(i, name, initialYear, finished);
+    }
+  }
+  myFunction();
+</script>
 {% include modal_projects.html %}

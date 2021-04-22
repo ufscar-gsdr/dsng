@@ -1,6 +1,8 @@
 ---
+name: "Fabio L. Verdi"
 title: 2017 - 2020
 initialYear: 2017
+finished: true
 subtitle: NECOS - Novel Enablers for Cloud Slicing
 # image: assets/img/projects/metodologiasageis.png
 image: false
