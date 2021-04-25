@@ -1,9 +1,9 @@
 ---
 name: "Fabio L. Verdi"
 title: 2017 - 2020
-initialYear: 2017
-finished: true
-subtitle: Alavancando a Internet do Futuro no Brasil através da Coexistência e Interconexão de Múltiplas Arquiteturas 
+start: 2017
+final: 2020
+subtitle: "Alavancando a Internet do Futuro no Brasil através da Coexistência e Interconexão de Múltiplas Arquiteturas" 
 # image: assets/img/projects/metodologiasageis.png
 image: false
 alt: Shirts on a hanger

@@ -11,31 +11,124 @@
       </div>
     </div>
 
-    <div class="row" id="publicationList">
+    <div class="row">
+      <select class="form-control col-lg-4 col-md-6 col-sm-12 mb-2" id="startPublication"
+        onchange="filterListPublication()">
+        <option selected value="all">De - Todos os anos</option>
+      </select>
+      <select class="form-control col-lg-4 col-md-6 col-sm-12 mb-2" id="finalPublication"
+        onchange="filterListPublication()">
+        <option selected value="all">Até - Todos os anos</option>
+      </select>
+
+      <select class="form-control col-lg-4 col-md-12 mb-2" id="publicationTeachers" onchange="filterListPublication()">
+        <option selected value="all">Todos os professores</option>
+        {% for person in site.team %}
+        <option value="{{ person.name }}">{{ person.name }}</option>
+        {% endfor %}
+      </select>
+    </div>
+
+    <ul class="row" id="listPublications">
       <!-- aqui{{ json.dumps(site.publications) }} -->
       <!-- {% assign publications = json.dumps(site.publications) %} -->
       <!-- {{ publications }} -->
       {% for publication in site.publications %}
-      <div class="portfolio-item col-12">
-
+      <li style="list-style: none;">
+        <text hidden>{{ publication.name }}</text>
+        <text hidden>{{ publication.start }}</text>
         <a class="" data-toggle="modal" href="#publication{{ forloop.index }}">
           <div class="portfolio-hover">
             <div class="portfolio-hover-content">
-              <div class="row d-flex justify-content-around align-items-start my-4">
-                <i class="col-1 {{ site.data.style.portfolio-icon | default: 'fas fa-plus fa-3x' }}"></i>
+
+              <div class="row align-items-center my-4">
+                <div class="col-2">
+                  <i class="{{ site.data.style.portfolio-icon | default: ' fas fa-plus fa-3x' }}"></i>
+                </div>
                 <div class="col-10">
-                  <h4>{{ publication.caption.title }}</h4>
-                  <p class="text-justify text-muted">{{ publication.caption.subtitle }}
-                  </p>
+                  <p class="text-justify text-muted">{{ publication.caption.title }}</p>
+                  <p class="text-justify text-muted">{{ publication.caption.subtitle }}</p>
                 </div>
               </div>
+
             </div>
           </div>
         </a>
 
-      </div>
+      </li>
       {% endfor %}
-    </div>
+    </ul>
   </div>
 </section>
+
+<script>
+  const publicationMinYear = parseInt("{{ site.data.sitetext.publications.minYear }}");
+  const publicationMaxYear = (new Date()).getFullYear();
+  const startPublication = document.getElementById("startPublication");
+  const finalPublication = document.getElementById("finalPublication");
+
+  console.log("teste1", publicationMinYear, publicationMaxYear);
+
+  for (let i = publicationMinYear; i <= publicationMaxYear; i++) {
+    console.log("teste" + i)
+    let optionS = document.createElement("option");
+    optionS.innerHTML = `De - ${i}`;
+    optionS.value = i;
+
+    let optionF = document.createElement("option");
+    optionF.innerHTML = `Até - ${i}`;
+    optionF.value = i;
+
+    console.log(optionS.value);
+    startPublication.appendChild(optionS);
+    finalPublication.appendChild(optionF);
+  }
+
+  // let elements = document.getElementById("listProjects").getElementsByTagName("li");
+  // console.log(elements.length, "testeste");
+
+  // elements = elements.sort((elementA, elementB) => {
+
+  //   let startA = elementsA.getElementsByTagName("text")[1];
+  //   startA = startA.textContent || startA.innerText;
+  //   startA = parseInt(startA);
+
+  //   let starB = elementsB.getElementsByTagName("text")[1];
+  //   startB = startB.textContent || start.innerText;
+  //   startB = parseInt(start);
+
+  //   console.log(startA, startB, "testefinal");
+  //   return startA - startB;
+  // });
+
+
+  function filterListPublication() {
+    // Declare variables
+    const startValue = document.getElementById("startPublication").value;
+    const finalValue = document.getElementById("finalPublication").value;
+    const teachersValue = document.getElementById("publicationTeachers").value;
+    console.log("chama", startValue, finalValue, teachersValue);
+    const elements = document.getElementById("listPublications").getElementsByTagName("li");
+    console.log("chama", elements);
+    for (i = 0; i < elements.length; i++) {
+
+      let name = elements[i].getElementsByTagName("text")[0];
+      name = name.textContent || name.innerText;
+
+      let start = elements[i].getElementsByTagName("text")[1];
+      start = start.textContent || start.innerText;
+      start = parseInt(start);
+      console.log(name, start);
+      if ((startValue === "all" || start >= startValue) &&
+        (finalValue === "all" || start <= finalValue)
+        && (teachersValue === "all" || teachersValue === name)) {
+        console.log("vazio" + i)
+        elements[i].style.display = "";
+      } else {
+        console.log("none" + i)
+        elements[i].style.display = "none";
+      }
+    }
+  }
+</script>
 {% include modal_publications.html %}

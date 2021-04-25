@@ -1,9 +1,9 @@
 ---
 name: "Fabio L. Verdi"
 title: 2017 - 2020
-initialYear: 2017
-finished: true
-subtitle: NECOS - Novel Enablers for Cloud Slicing
+start: 2017
+final: 2020
+subtitle: "NECOS - Novel Enablers for Cloud Slicingteste"
 # image: assets/img/projects/metodologiasageis.png
 image: false
 alt: Shirts on a hanger

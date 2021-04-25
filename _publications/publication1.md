@@ -1,7 +1,7 @@
 ---
 name: "Fabio L. Verdi"
 title: "Published: 30 July 2020"
-initialYear: 2020
+start: 2020
 subtitle: "BitMatrix: A Multipurpose Sketch for Monitoring of Multi-tenant Networks" 
 # image: assets/img/projects/metodologiasageis.png
 image: false

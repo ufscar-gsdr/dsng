@@ -1,6 +1,7 @@
 ---
 name: "Paulo Matias"
 role: "Doutor"
+personalPage: "https://pmatias.me/"
 image: assets/img/team/paulo_matias.jpg
 social:
   - url: https://twitter.com

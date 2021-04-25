@@ -1,8 +1,8 @@
 ---
 name: "Fabio L. Verdi"
 title: 2016 - Atual
-initialYear: 2016
-finished: false
+start: 2016
+final: false
 subtitle: Monitoramento de recursos físicos e virtuais em ambientes de cloud computing e infraestruturas virtualizadas
 # image: assets/img/projects/metodologiasageis.png
 image: false

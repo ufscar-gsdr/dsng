@@ -10,61 +10,124 @@
         <h3 class="section-subheading text-muted">{{ site.data.sitetext.projects.text | markdownify }}</h3>
       </div>
     </div>
-    
-    <select name="cars" id="cars">
-    
-    </select>
-    
-    <div id="listProjects" class="row">
+
+    <div class="row">
+      <select class="form-control col-lg-4 col-md-6 col-sm-12 mb-2" id="startProject" onchange="filterList()">
+        <option selected value="all">Ano de Início - Todos os anos</option>
+      </select>
+
+      <select class="form-control align-items-center col-lg-4 col-md-6-sm-12 mb-2" id="finalProject"
+        onchange="filterList()">
+        <option selected value="all">Ano de Término - Todos os anos</option>
+        <option selected value="nFinished">Ano de Término - Não finalizado</option>
+      </select>
+
+      <select class="form-control col-lg-4 col-md-12 col-sm-12 mb-2" id="projectTeachers" onchange="filterList()">
+        <option selected value="all">Todos os professores</option>
+        {% for person in site.team %}
+        <option value="{{ person.name }}">{{ person.name }}</option>
+        {% endfor %}
+      </select>
+    </div>
+
+    <ul id="listProjects" class="row">
       {% for project in site.projects %}
-      <div>
+      <li style="list-style: none;">
         <text hidden>{{ project.name }}</text>
-        <text hidden>{{ project.initialYear }}</text>
-        <text hidden>{{ project.finished }}</text>
+        <text hidden>{{ project.start }}</text>
+        <text hidden>{{ project.final }}</text>
+
         <div class="col-12">
           <a class="portfolio-link" data-toggle="modal" href="#project{{ forloop.index }}">
             <div class="portfolio-hover">
               <div class="portfolio-hover-content">
-                <div class="row d-flex justify-content-around align-items-start my-4">
-                  <i class="col-1 {{ site.data.style.portfolio-icon | default: ' fas fa-plus fa-3x' }}"
-                    style="border-style: none;"></i>
+
+                <div class="row align-items-center my-4">
+                  <div class="col-2">
+                    <i class="{{ site.data.style.portfolio-icon | default: ' fas fa-plus fa-3x' }}"></i>
+                  </div>
                   <div class="col-10">
-                    <h4>{{ project.caption.title }}</h4>
+                    <p class="text-justify text-muted">{{ project.caption.title }}</p>
                     <p class="text-justify text-muted">{{ project.caption.subtitle }}</p>
                   </div>
                 </div>
+
               </div>
             </div>
           </a>
-        </div>
-      </div>
+      </li>
       {% endfor %}
-    </div>
+    </ul>
+  </div>
   </div>
 </section>
 
 <script>
-  function myFunction() {
-    // Declare variables
-    let elements;
-    elements = document.getElementById("listProjects").getElementsByTagName('div');
+  const minYear = parseInt("{{ site.data.sitetext.projects.minYear }}");
+  const maxYear = (new Date()).getFullYear();
+  const startProject = document.getElementById("startProject");
+  const finalProject = document.getElementById("finalProject");
 
-    // Loop through all list items, and hide those who don't match the search query
+
+  for (let i = minYear; i <= maxYear; i++) {
+    let optionS = document.createElement("option");
+    optionS.innerHTML = `Ano de início - ${i}`;
+    optionS.value = i;
+
+    let optionF = document.createElement("option");
+    optionF.innerHTML = `Ano de término - ${i}`;
+    optionF.value = i;
+
+    startProject.appendChild(optionS);
+    finalProject.appendChild(optionF);
+  }
+
+  // let elements = document.getElementById("listProjects").getElementsByTagName("li");
+  // console.log(elements.length, "testeste");
+
+  // elements = elements.sort((elementA, elementB) => {
+
+  //   let startA = elementsA.getElementsByTagName("text")[1];
+  //   startA = startA.textContent || startA.innerText;
+  //   startA = parseInt(startA);
+
+  //   let starB = elementsB.getElementsByTagName("text")[1];
+  //   startB = startB.textContent || start.innerText;
+  //   startB = parseInt(start);
+
+  //   console.log(startA, startB, "testefinal");
+  //   return startA - startB;
+  // });
+
+
+  function filterList() {
+    // Declare variables
+    const startValue = document.getElementById("startProject").value;
+    const finalValue = document.getElementById("finalProject").value;
+    const teachersValue = document.getElementById("projectTeachers").value;
+
+    const elements = document.getElementById("listProjects").getElementsByTagName("li");
     for (i = 0; i < elements.length; i++) {
 
       let name = elements[i].getElementsByTagName("text")[0];
       name = name.textContent || name.innerText;
-      
-      let initialYear = elements[i].getElementsByTagName("text")[1];
-      initialYear = initialYear.textContent || initialYear.innerText;
-      
-      let finished = elements[i].getElementsByTagName("text")[2];;
-      finished = finished.textContent || finished.innerText;
-      finished = JSON.parse(finished.toLowerCase());
 
-      console.log(i, name, initialYear, finished);
+      let start = elements[i].getElementsByTagName("text")[1];
+      start = start.textContent || start.innerText;
+      start = parseInt(start);
+
+      let final = elements[i].getElementsByTagName("text")[2];
+      final = final.textContent || final.innerText;
+      final = parseInt(final);
+
+      if ((startValue === "all" || start >= startValue) &&
+        (finalValue === "all" || !!!final && finalValue === "nFinished" || !!final && final <= finalValue)
+        && (teachersValue === "all" || teachersValue === name)) {
+        elements[i].style.display = "";
+      } else {
+        elements[i].style.display = "none";
+      }
     }
   }
-  myFunction();
 </script>
 {% include modal_projects.html %}

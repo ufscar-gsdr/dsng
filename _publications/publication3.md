@@ -1,7 +1,7 @@
 ---
 name: "Fabio L. Verdi"
 title: "Published: 06 October 2018"
-initialYear: 2018
+start: 2018
 subtitle: "OrchFlow: An Architecture for Orchestration of Multiple Controllers in OpenFlow Networks"
 # image: assets/img/projects/metodologiasageis.png
 image: false
