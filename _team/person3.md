@@ -1,13 +1,10 @@
 ---
 name: "Hermes Senger"
 role: "Doutor"
-personalPage: "https://sites.google.com/site/hermessengershomepage/"
 image: assets/img/team/hermes_senger.jpg
 social:
-  - url: https://twitter.com
-    icon: fab fa-twitter
-  - url: https://facebook.com
-    icon: fab fa-facebook-f
+  - url: "https://sites.google.com/site/hermessengershomepage/"
+    icon: fas fa-user
   - url: https://www.linkedin.com
     icon: fab fa-linkedin-in
 

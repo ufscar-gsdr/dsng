@@ -1,13 +1,10 @@
 ---
 name: "Paulo Matias"
 role: "Doutor"
-personalPage: "https://pmatias.me/"
 image: assets/img/team/paulo_matias.jpg
 social:
-  - url: https://twitter.com
-    icon: fab fa-twitter
-  - url: https://facebook.com
-    icon: fab fa-facebook-f
+  - url: "https://pmatias.me/"
+    icon: fas fa-user
   - url: https://www.linkedin.com
     icon: fab fa-linkedin-in
 

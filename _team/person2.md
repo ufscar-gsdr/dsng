@@ -1,13 +1,10 @@
 ---
 name: "Hélio Crestana Guardia"
 role: "Doutor"
-personalPage: "http://www2.dc.ufscar.br/~helio/"
 image: assets/img/team/helio_crestana_guardia.png
 social:
-  - url: https://twitter.com
-    icon: fab fa-twitter
-  - url: https://facebook.com
-    icon: fab fa-facebook-f
+  - url: "http://www2.dc.ufscar.br/~helio/"
+    icon: fas fa-user
   - url: https://www.linkedin.com
     icon: fab fa-linkedin-in
 

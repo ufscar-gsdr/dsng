@@ -1,14 +1,11 @@
 ---
 name: "Fabio L. Verdi"
 role: "Doutor"
-personalPage: "http://www.dcomp.ufscar.br/verdi"
 lattes: ""
 image: assets/img/team/fabio_verde.jpg
 social:
-  - url: https://twitter.com/fabio_verdi
-    icon: fab fa-twitter
-  - url: https://www.facebook.com/fabio.verdi.92
-    icon: fab fa-facebook-f
+  - url: "http://www.dcomp.ufscar.br/verdi"
+    icon: fas fa-user
   - url: https://www.linkedin.com/in/fábio-luciano-verdi-aa9bb34
     icon: fab fa-linkedin-in
 
